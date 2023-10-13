@@ -40,20 +40,28 @@ create table sala(
     tipo_sala varchar(),
     data_show boolean,
     crimatizacao boolean,
-    status_limpeza boolean,
-    obs varchar()
+    obs varchar(),
+    sala_especial boolean
 )
 
 create table reserva(
 
-    id_sala integer auto_increment,
-    id_reserva,
-    responsavel,
-    motivo_reserva,
-    recursos_adicionais,
-    token_reserva
+    id_reserva integer,
+    id_sala integer,
+    responsavel varchar(),
+    motivo_reserva varchar(),
+    recursos_adicionais varchar(),
+    horario_inicio timestamp,
+    horario_fim timestamp,
+    token_reserva varchar(),
+    confirmado boolean
 )
 
-create table aloca_turma_semestre(cpf_tecnico_adm,id_sala)
+create table limpeza_manutencao(
 
-create table 
+    cpf_funcionario char(11),
+    id_sala integer,
+    data_hora timestamp
+)
+
+
