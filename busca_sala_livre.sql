@@ -1,4 +1,4 @@
-/* criando as consultas*/
+/* Quais salas estão disponíveis*/
 
 /* Cria uma tabela com as salas que estao reservadas para agora */
 salas_reservadas as (
