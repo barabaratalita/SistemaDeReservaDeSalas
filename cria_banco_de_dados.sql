@@ -1,4 +1,3 @@
-
 /*  criar a base de dos caso nao exista*/
 CREATE DATABASE IF NOT EXISTS sistema_reserva_salas_db;
 use sistema_reserva_salas_db;
@@ -9,7 +8,7 @@ create table usuario(
     email varchar(30) primary key,
     nome varchar(30) not null,
     senha varchar(250) not null,
-    contato_telefone varchar(14) ,
+    contato_telefone varchar(14),
     token_recuperacao_senha varchar(250)
 );
 
@@ -24,20 +23,20 @@ create table discente(
 );
 
 create table doscente(
-    siap integer not null primary key,
+    siape integer not null primary key,
     do_email varchar(30),
     foreign key(do_email) references usuario(email)
 );
 
 create table fucionario_tercerizado(
-    cpf char(11) not null primary key,
+    cpf varchar(11) not null primary key,
     fu_email varchar(30),
     foreign key(fu_email)  references usuario(email)
     
 );
 
 create table tecnicos_adm(
-    cpf char(11) not null primary key,
+    cpf varchar(11) not null primary key,
     tec_email varchar(30),
     foreign key(tec_email) references usuario(email)
     
@@ -76,16 +75,9 @@ create table reserva_responsavel(
 
 
 create table limpeza_manutencao(
-    cpf_funcionario char(11), 
+    cpf_funcionario varchar(11), 
     id_sala integer,
     data_hora timestamp, 
     foreign key(cpf_funcionario) references fucionario_tercerizado(cpf),
     foreign key(id_sala) references sala(id_sala)
 );
-
-
-
-
-
-
-
