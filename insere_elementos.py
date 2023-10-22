@@ -6,7 +6,7 @@ def get_query_usuario():
     for i in range(40):
 
         query_usuario += f"""\ninsert into usuario(email, nome, senha, contato_telefone, token_recuperacao_senha)
-                                        values("email{i}@email.com","nome {i}", "jsk232d3333dddsdl", "009909093", null);"""
+                                        values('email{i}@email.com','nome {i}', 'jsk232d3333dddsdl', '009909093', null);"""
 
     return query_usuario
 
@@ -15,7 +15,7 @@ def get_query_discente():
 
     query_discente = ""
     for i in range(10):
-        query_discente += f"""\ninsert into discente(di_email, matricula) values ("email{i}@email.com", {i});"""
+        query_discente += f"""\ninsert into discente(di_email, matricula) values ('email{i}@email.com', {i});"""
 
     return query_discente
 
@@ -23,7 +23,7 @@ def get_query_doscente():
     
     query_doscente = ""
     for i in range(10, 20):
-        query_doscente += f"""\ninsert into doscente(do_email, siape) values ("email{i}@email.com", {i});"""
+        query_doscente += f"""\ninsert into doscente(do_email, siape) values ('email{i}@email.com', {i});"""
 
     return query_doscente
 
@@ -31,7 +31,7 @@ def get_query_fucionario_tercerizado():
 
     query_fucionario_tercerizado = ""
     for i in range(20,30):
-        query_fucionario_tercerizado += f"""\ninsert into fucionario_tercerizado(fu_email, cpf) values ("email{i}@email.com", {i});"""
+        query_fucionario_tercerizado += f"""\ninsert into fucionario_tercerizado(fu_email, cpf) values ('email{i}@email.com', {i});"""
 
     return query_fucionario_tercerizado
 
@@ -39,7 +39,7 @@ def get_query_tecnicos_adm():
 
     query_tecnicos_adm = ""
     for i in range(30,40):
-        query_tecnicos_adm += f"""\ninsert into tecnicos_adm(tec_email, cpf) values ("email{i}@email.com", "00000000000");"""
+        query_tecnicos_adm += f"""\ninsert into tecnicos_adm(tec_email, cpf) values ('email{i}@email.com', '00000000000');"""
 
     return query_tecnicos_adm
 
@@ -91,7 +91,7 @@ def get_responsavel_valido(position):
 
     responsaveis = []
     for i in range(10,20):
-        responsaveis.append(f"email{i}@email.com")
+        responsaveis.append(f"email{i}@email.com1")
 
     p = position
     if position >= 10:
