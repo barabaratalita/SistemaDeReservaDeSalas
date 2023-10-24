@@ -48,7 +48,7 @@ create table sala(
     lotacao integer,
     tipo_sala varchar(250),
     data_show boolean,
-    crimatizacao boolean,
+    climatizacao boolean,
     obs varchar(250),
     sala_especial boolean
 );

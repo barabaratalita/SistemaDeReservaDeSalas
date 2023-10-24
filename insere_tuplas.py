@@ -89,7 +89,7 @@ def get_sql_salas():
             data_show = "false"
 
         sql_sala += f"""
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values ({i+1}, {i+1}, {i+10}, null, {data_show}, {data_show}, null, {sala_especial});
         """
         

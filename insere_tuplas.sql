@@ -201,885 +201,885 @@ insert into tecnicos_adm(cpf, tec_email) values ('000000039', 'email39@email.com
 insert into tecnicos_adm(cpf, tec_email) values ('000000040', 'email40@email.com');
         /*
  insere salas */
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (1, 1, 10, null, false, false, null, true);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (2, 2, 11, null, true, true, null, false);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (3, 3, 12, null, false, false, null, true);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (4, 4, 13, null, true, true, null, false);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (5, 5, 14, null, false, false, null, true);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (6, 6, 15, null, true, true, null, false);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (7, 7, 16, null, false, false, null, true);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (8, 8, 17, null, true, true, null, false);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (9, 9, 18, null, false, false, null, true);
         
-insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, crimatizacao, obs, sala_especial)
+insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, obs, sala_especial)
     values (10, 10, 19, null, true, true, null, false);
         /*
  insere reservas das salas */
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (1, 1, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (1, 1, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (1, 'email11@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (2, 1, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (2, 1, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (2, 'email12@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (3, 1, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (3, 1, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (3, 'email13@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (4, 1, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (4, 1, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (4, 'email14@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (5, 1, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (5, 1, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (5, 'email15@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (6, 2, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (6, 2, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (6, 'email16@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (7, 2, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (7, 2, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (7, 'email17@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (8, 2, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (8, 2, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (8, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (9, 2, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (9, 2, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (9, 'email19@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (10, 2, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (10, 2, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (10, 'email20@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (11, 3, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (11, 3, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (11, 'email11@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (12, 3, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (12, 3, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (12, 'email12@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (13, 3, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (13, 3, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (13, 'email12@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (14, 3, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (14, 3, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (14, 'email14@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (15, 3, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (15, 3, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (15, 'email14@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (16, 4, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (16, 4, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (16, 'email16@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (17, 4, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (17, 4, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (17, 'email17@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (18, 4, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (18, 4, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (18, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (19, 4, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (19, 4, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (19, 'email19@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (20, 4, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (20, 4, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (20, 'email20@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (21, 5, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (21, 5, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (21, 'email11@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (22, 5, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (22, 5, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (22, 'email12@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (23, 5, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (23, 5, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (23, 'email13@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (24, 5, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (24, 5, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (24, 'email13@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (25, 5, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (25, 5, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (25, 'email14@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (26, 6, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (26, 6, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (26, 'email16@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (27, 6, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (27, 6, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (27, 'email17@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (28, 6, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (28, 6, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (28, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (29, 6, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (29, 6, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (29, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (30, 6, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (30, 6, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (30, 'email20@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (31, 7, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (31, 7, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (31, 'email11@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (32, 7, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (32, 7, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (32, 'email12@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (33, 7, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (33, 7, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (33, 'email13@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (34, 7, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (34, 7, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (34, 'email13@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (35, 7, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (35, 7, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (35, 'email14@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (36, 8, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (36, 8, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (36, 'email16@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (37, 8, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (37, 8, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (37, 'email17@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (38, 8, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (38, 8, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (38, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (39, 8, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (39, 8, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (39, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (40, 8, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (40, 8, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (40, 'email20@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (41, 9, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (41, 9, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (41, 'email11@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (42, 9, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (42, 9, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (42, 'email11@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (43, 9, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (43, 9, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (43, 'email13@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (44, 9, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (44, 9, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (44, 'email13@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (45, 9, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (45, 9, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (45, 'email15@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (46, 10, null, null, '2023-10-22 17:15:48', '2023-10-22 20:15:48', null, true);
+    values (46, 10, null, null, '2023-10-23 20:48:11', '2023-10-23 23:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (46, 'email16@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (47, 10, null, null, '2023-10-22 18:15:48', '2023-10-22 21:15:48', null, true);
+    values (47, 10, null, null, '2023-10-23 21:48:11', '2023-10-24 00:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (47, 'email16@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (48, 10, null, null, '2023-10-22 19:15:48', '2023-10-22 22:15:48', null, true);
+    values (48, 10, null, null, '2023-10-23 22:48:11', '2023-10-24 01:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (48, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (49, 10, null, null, '2023-10-22 20:15:48', '2023-10-22 23:15:48', null, true);
+    values (49, 10, null, null, '2023-10-23 23:48:11', '2023-10-24 02:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (49, 'email18@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (50, 10, null, null, '2023-10-22 21:15:48', '2023-10-23 00:15:48', null, true);
+    values (50, 10, null, null, '2023-10-24 00:48:11', '2023-10-24 03:48:11', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (50, 'email20@email.com');
 /*
  insere limpezas das salas */
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 1, '2023-10-22 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 1, '2023-10-23 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-10-23 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-10-24 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 1, '2023-10-24 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 1, '2023-10-25 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-10-25 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-10-26 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 1, '2023-10-26 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 1, '2023-10-27 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 1, '2023-10-27 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 1, '2023-10-28 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 1, '2023-10-28 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 1, '2023-10-29 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-10-29 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-10-30 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 1, '2023-10-30 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 1, '2023-10-31 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 1, '2023-10-31 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 1, '2023-11-01 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 1, '2023-11-01 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 1, '2023-11-02 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-11-02 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-11-03 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-11-03 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-11-04 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-11-04 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-11-05 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-11-05 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-11-06 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 1, '2023-11-06 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 1, '2023-11-07 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 1, '2023-11-07 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 1, '2023-11-08 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-11-08 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-11-09 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 1, '2023-11-09 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 1, '2023-11-10 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 1, '2023-11-10 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 1, '2023-11-11 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 1, '2023-11-11 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 1, '2023-11-12 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-11-12 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 1, '2023-11-13 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 1, '2023-11-13 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 1, '2023-11-14 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 1, '2023-11-14 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 1, '2023-11-15 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-11-15 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 1, '2023-11-16 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 1, '2023-11-16 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 1, '2023-11-17 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 1, '2023-11-17 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 1, '2023-11-18 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-11-18 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-11-19 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-11-19 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 1, '2023-11-20 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 1, '2023-11-20 17:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 1, '2023-11-21 20:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 2, '2023-10-22 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 2, '2023-10-23 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-10-23 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-10-24 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 2, '2023-10-24 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 2, '2023-10-25 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-10-25 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-10-26 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 2, '2023-10-26 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 2, '2023-10-27 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 2, '2023-10-27 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 2, '2023-10-28 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 2, '2023-10-28 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 2, '2023-10-29 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-10-29 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-10-30 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 2, '2023-10-30 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 2, '2023-10-31 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 2, '2023-10-31 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 2, '2023-11-01 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 2, '2023-11-01 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 2, '2023-11-02 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-11-02 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-11-03 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-11-03 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-11-04 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-11-04 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-11-05 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-11-05 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-11-06 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 2, '2023-11-06 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 2, '2023-11-07 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 2, '2023-11-07 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 2, '2023-11-08 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-11-08 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-11-09 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 2, '2023-11-09 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 2, '2023-11-10 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 2, '2023-11-10 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 2, '2023-11-11 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 2, '2023-11-11 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 2, '2023-11-12 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-11-12 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 2, '2023-11-13 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 2, '2023-11-13 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 2, '2023-11-14 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 2, '2023-11-14 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 2, '2023-11-15 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-11-15 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 2, '2023-11-16 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 2, '2023-11-16 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 2, '2023-11-17 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 2, '2023-11-17 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 2, '2023-11-18 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-11-18 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-11-19 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-11-19 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 2, '2023-11-20 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 2, '2023-11-20 18:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 2, '2023-11-21 21:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 3, '2023-10-22 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 3, '2023-10-23 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-10-23 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-10-24 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 3, '2023-10-24 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 3, '2023-10-25 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-10-25 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-10-26 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 3, '2023-10-26 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 3, '2023-10-27 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 3, '2023-10-27 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 3, '2023-10-28 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 3, '2023-10-28 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 3, '2023-10-29 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-10-29 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-10-30 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 3, '2023-10-30 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 3, '2023-10-31 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 3, '2023-10-31 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 3, '2023-11-01 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 3, '2023-11-01 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 3, '2023-11-02 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-11-02 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-11-03 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-11-03 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-11-04 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-11-04 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-11-05 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-11-05 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-11-06 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 3, '2023-11-06 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 3, '2023-11-07 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 3, '2023-11-07 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 3, '2023-11-08 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-11-08 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-11-09 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 3, '2023-11-09 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 3, '2023-11-10 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 3, '2023-11-10 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 3, '2023-11-11 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 3, '2023-11-11 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 3, '2023-11-12 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-11-12 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 3, '2023-11-13 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 3, '2023-11-13 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 3, '2023-11-14 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 3, '2023-11-14 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 3, '2023-11-15 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-11-15 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 3, '2023-11-16 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 3, '2023-11-16 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 3, '2023-11-17 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 3, '2023-11-17 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 3, '2023-11-18 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-11-18 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-11-19 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-11-19 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 3, '2023-11-20 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 3, '2023-11-20 19:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 3, '2023-11-21 22:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 4, '2023-10-22 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 4, '2023-10-23 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-10-23 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-10-24 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 4, '2023-10-24 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 4, '2023-10-25 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-10-25 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-10-26 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 4, '2023-10-26 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 4, '2023-10-27 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 4, '2023-10-27 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 4, '2023-10-28 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 4, '2023-10-28 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 4, '2023-10-29 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-10-29 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-10-30 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 4, '2023-10-30 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 4, '2023-10-31 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 4, '2023-10-31 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 4, '2023-11-01 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 4, '2023-11-01 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 4, '2023-11-02 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-11-02 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-11-03 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-11-03 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-11-04 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-11-04 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-11-05 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-11-05 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-11-06 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 4, '2023-11-06 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 4, '2023-11-07 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 4, '2023-11-07 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 4, '2023-11-08 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-11-08 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-11-09 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 4, '2023-11-09 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 4, '2023-11-10 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 4, '2023-11-10 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 4, '2023-11-11 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 4, '2023-11-11 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 4, '2023-11-12 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-11-12 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 4, '2023-11-13 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 4, '2023-11-13 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 4, '2023-11-14 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 4, '2023-11-14 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 4, '2023-11-15 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-11-15 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 4, '2023-11-16 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 4, '2023-11-16 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 4, '2023-11-17 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 4, '2023-11-17 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 4, '2023-11-18 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-11-18 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-11-19 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-11-19 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 4, '2023-11-20 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 4, '2023-11-20 20:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 4, '2023-11-21 23:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 5, '2023-10-22 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 5, '2023-10-24 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-10-23 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-10-25 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 5, '2023-10-24 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 5, '2023-10-26 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-10-25 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-10-27 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 5, '2023-10-26 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 5, '2023-10-28 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 5, '2023-10-27 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 5, '2023-10-29 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 5, '2023-10-28 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 5, '2023-10-30 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-10-29 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-10-31 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 5, '2023-10-30 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 5, '2023-11-01 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 5, '2023-10-31 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 5, '2023-11-02 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 5, '2023-11-01 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 5, '2023-11-03 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-11-02 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-11-04 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-11-03 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-11-05 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-11-04 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-11-06 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-11-05 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-11-07 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 5, '2023-11-06 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 5, '2023-11-08 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 5, '2023-11-07 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 5, '2023-11-09 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-11-08 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-11-10 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 5, '2023-11-09 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 5, '2023-11-11 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 5, '2023-11-10 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 5, '2023-11-12 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 5, '2023-11-11 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 5, '2023-11-13 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-11-12 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 5, '2023-11-14 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 5, '2023-11-13 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 5, '2023-11-15 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 5, '2023-11-14 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 5, '2023-11-16 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-11-15 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 5, '2023-11-17 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 5, '2023-11-16 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 5, '2023-11-18 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 5, '2023-11-17 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 5, '2023-11-19 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-11-18 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-11-20 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-11-19 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 5, '2023-11-21 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 5, '2023-11-20 21:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 5, '2023-11-22 00:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 6, '2023-10-22 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 6, '2023-10-24 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-10-23 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-10-25 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 6, '2023-10-24 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 6, '2023-10-26 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-10-25 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-10-27 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 6, '2023-10-26 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 6, '2023-10-28 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 6, '2023-10-27 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 6, '2023-10-29 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 6, '2023-10-28 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 6, '2023-10-30 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-10-29 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-10-31 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 6, '2023-10-30 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 6, '2023-11-01 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 6, '2023-10-31 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 6, '2023-11-02 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 6, '2023-11-01 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 6, '2023-11-03 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-11-02 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-11-04 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-11-03 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-11-05 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-11-04 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-11-06 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-11-05 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-11-07 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 6, '2023-11-06 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 6, '2023-11-08 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 6, '2023-11-07 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 6, '2023-11-09 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-11-08 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-11-10 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 6, '2023-11-09 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 6, '2023-11-11 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 6, '2023-11-10 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 6, '2023-11-12 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 6, '2023-11-11 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 6, '2023-11-13 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-11-12 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 6, '2023-11-14 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 6, '2023-11-13 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 6, '2023-11-15 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 6, '2023-11-14 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 6, '2023-11-16 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-11-15 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 6, '2023-11-17 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 6, '2023-11-16 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 6, '2023-11-18 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 6, '2023-11-17 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 6, '2023-11-19 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-11-18 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-11-20 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-11-19 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 6, '2023-11-21 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 6, '2023-11-20 22:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 6, '2023-11-22 01:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 7, '2023-10-22 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 7, '2023-10-24 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-10-23 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-10-25 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 7, '2023-10-24 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 7, '2023-10-26 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-10-25 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-10-27 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 7, '2023-10-26 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 7, '2023-10-28 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 7, '2023-10-27 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 7, '2023-10-29 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 7, '2023-10-28 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 7, '2023-10-30 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-10-29 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-10-31 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 7, '2023-10-30 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 7, '2023-11-01 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 7, '2023-10-31 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 7, '2023-11-02 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 7, '2023-11-01 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 7, '2023-11-03 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-11-02 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-11-04 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-11-03 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-11-05 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-11-04 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-11-06 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-11-05 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-11-07 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 7, '2023-11-06 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 7, '2023-11-08 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 7, '2023-11-07 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 7, '2023-11-09 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-11-08 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-11-10 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 7, '2023-11-09 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 7, '2023-11-11 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 7, '2023-11-10 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 7, '2023-11-12 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 7, '2023-11-11 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 7, '2023-11-13 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-11-12 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 7, '2023-11-14 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 7, '2023-11-13 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 7, '2023-11-15 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 7, '2023-11-14 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 7, '2023-11-16 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-11-15 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 7, '2023-11-17 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 7, '2023-11-16 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 7, '2023-11-18 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 7, '2023-11-17 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 7, '2023-11-19 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-11-18 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-11-20 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-11-19 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 7, '2023-11-21 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 7, '2023-11-20 23:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 7, '2023-11-22 02:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 8, '2023-10-23 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 8, '2023-10-24 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-10-24 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-10-25 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 8, '2023-10-25 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 8, '2023-10-26 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-10-26 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-10-27 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 8, '2023-10-27 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 8, '2023-10-28 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 8, '2023-10-28 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 8, '2023-10-29 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 8, '2023-10-29 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 8, '2023-10-30 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-10-30 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-10-31 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 8, '2023-10-31 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 8, '2023-11-01 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 8, '2023-11-01 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 8, '2023-11-02 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 8, '2023-11-02 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 8, '2023-11-03 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-11-03 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-11-04 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-11-04 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-11-05 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-11-05 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-11-06 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-11-06 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-11-07 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 8, '2023-11-07 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 8, '2023-11-08 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 8, '2023-11-08 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 8, '2023-11-09 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-11-09 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-11-10 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 8, '2023-11-10 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 8, '2023-11-11 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 8, '2023-11-11 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 8, '2023-11-12 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 8, '2023-11-12 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 8, '2023-11-13 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-11-13 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 8, '2023-11-14 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 8, '2023-11-14 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 8, '2023-11-15 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 8, '2023-11-15 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 8, '2023-11-16 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-11-16 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 8, '2023-11-17 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 8, '2023-11-17 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 8, '2023-11-18 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 8, '2023-11-18 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 8, '2023-11-19 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-11-19 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-11-20 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-11-20 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 8, '2023-11-21 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 8, '2023-11-21 00:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 8, '2023-11-22 03:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 9, '2023-10-23 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 9, '2023-10-24 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-10-24 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-10-25 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 9, '2023-10-25 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 9, '2023-10-26 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-10-26 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-10-27 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 9, '2023-10-27 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 9, '2023-10-28 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 9, '2023-10-28 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 9, '2023-10-29 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 9, '2023-10-29 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 9, '2023-10-30 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-10-30 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-10-31 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 9, '2023-10-31 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 9, '2023-11-01 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 9, '2023-11-01 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 9, '2023-11-02 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 9, '2023-11-02 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 9, '2023-11-03 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-11-03 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-11-04 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-11-04 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-11-05 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-11-05 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-11-06 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-11-06 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-11-07 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 9, '2023-11-07 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 9, '2023-11-08 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 9, '2023-11-08 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 9, '2023-11-09 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-11-09 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-11-10 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 9, '2023-11-10 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 9, '2023-11-11 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 9, '2023-11-11 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 9, '2023-11-12 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 9, '2023-11-12 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 9, '2023-11-13 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-11-13 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 9, '2023-11-14 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 9, '2023-11-14 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 9, '2023-11-15 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 9, '2023-11-15 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 9, '2023-11-16 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-11-16 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 9, '2023-11-17 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 9, '2023-11-17 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 9, '2023-11-18 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 9, '2023-11-18 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 9, '2023-11-19 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-11-19 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-11-20 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-11-20 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 9, '2023-11-21 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 9, '2023-11-21 01:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 9, '2023-11-22 04:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 10, '2023-10-23 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 10, '2023-10-24 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-10-24 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-10-25 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 10, '2023-10-25 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 10, '2023-10-26 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-10-26 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-10-27 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 10, '2023-10-27 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000025', 10, '2023-10-28 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 10, '2023-10-28 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 10, '2023-10-29 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 10, '2023-10-29 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 10, '2023-10-30 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-10-30 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-10-31 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 10, '2023-10-31 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 10, '2023-11-01 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 10, '2023-11-01 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 10, '2023-11-02 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 10, '2023-11-02 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 10, '2023-11-03 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-11-03 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-11-04 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-11-04 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-11-05 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-11-05 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-11-06 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-11-06 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-11-07 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 10, '2023-11-07 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 10, '2023-11-08 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 10, '2023-11-08 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 10, '2023-11-09 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-11-09 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-11-10 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 10, '2023-11-10 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000029', 10, '2023-11-11 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 10, '2023-11-11 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 10, '2023-11-12 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 10, '2023-11-12 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000021', 10, '2023-11-13 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-11-13 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000022', 10, '2023-11-14 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 10, '2023-11-14 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 10, '2023-11-15 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 10, '2023-11-15 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000023', 10, '2023-11-16 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-11-16 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000024', 10, '2023-11-17 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 10, '2023-11-17 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000026', 10, '2023-11-18 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 10, '2023-11-18 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000027', 10, '2023-11-19 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-11-19 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-11-20 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-11-20 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000028', 10, '2023-11-21 05:48:11');
             
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 10, '2023-11-21 02:15:48');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('000000030', 10, '2023-11-22 05:48:11');
             

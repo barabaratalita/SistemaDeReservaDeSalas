@@ -1,5 +1,5 @@
 /*Buscar por reservas de sala em determinada data*/
-
+use sistema_reserva_salas_db;
 select r.id_sala, r.horario_inicio, r.horario_fim, s.numero 
     from reserva r, sala s 
         where 

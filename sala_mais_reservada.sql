@@ -1,6 +1,6 @@
 /*Qual a sala mais utilizada*/
 /* criando uma tabela  com a quantidade de reservas por sala*/
-
+use sistema_reserva_salas_db;
 reservas_por_sala as (
     SELECT id_sala, numero, COUNT(id_reserva) AS contagem_reservas 
         FROM reserva
