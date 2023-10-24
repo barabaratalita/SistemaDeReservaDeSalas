@@ -1,8 +1,10 @@
 /*Buscar por reservas de sala em determinada data*/
 use sistema_reserva_salas_db;
-select r.id_sala, r.horario_inicio, r.horario_fim, s.numero 
-    from reserva r, sala s 
-        where 
-            s.id_sala = ' 93029'
-            and r.id_sala = s.id_sala 
-            and substr(r.horario_inicio, 0, 10) = "2023-10-20" /*considere que uma data e hora seja no formato: yyyy-mm-dd HH:MM:ss*/
+
+SELECT s.numero AS numero_sala, r.horario_inicio, r.horario_fim
+FROM reserva r
+INNER JOIN sala s ON r.id_sala = s.id_sala
+WHERE (r.horario_inicio <= '2023-10-22 15:18' AND r.horario_fim >= '2023-10-22 20:18');
+
+
+    
