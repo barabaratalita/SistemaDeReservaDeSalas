@@ -1,21 +1,20 @@
 /* Quais salas estão disponíveis*/
 
 use sistema_reserva_salas_db;
+/*salas reservadas no período  2023-10-22 18:18 - 2023-10-22 19:18*/
+SELECT s.numero AS numero_sala, r.horario_inicio, r.horario_fim
+FROM reserva r
+INNER JOIN sala s ON r.id_sala = s.id_sala
+WHERE (r.horario_inicio <= '2023-10-24 19:18' AND r.horario_fim >= '2023-10-24 18:18');
 
-with salas_reservadas as (
-	SELECT r.id_sala
-		FROM reserva r
-			WHERE /*periodo: 2023-10-22 18:18 - 2023-10-22 19:18 */
-				 (date(r.horario_inicio) >= date("2023-10-22 15:18") 
-					and date(r.horario_inicio) <= date("2023-10-22 20:18"))
-				or
-				 date(r.horario_fim) >= date("2023-10-22 15:18")
-)
+/*Pega todas as salas que nao pertencem ao conjunto das reservadas.: salas - salas_reservadas*/
+SELECT s.numero AS numero_sala
+FROM sala s
+LEFT JOIN reserva r ON s.id_sala = r.id_sala
+WHERE (r.id_reserva IS NULL) OR (r.horario_inicio > '2023-10-24 19:18' OR r.horario_fim < '2023-10-24 18:18');
 
-/* Pega todas as salas que nao pertencem ao conjunto das reservadas.: salas - salas_reservadas */ 
-SELECT DISTINCT s.id_sala, s.numero, s.lotacao, s.tipo_sala, s.data_show, s.obs, s.sala_especial
-	FROM sala s LEFT JOIN salas_reservadas sr
-		ON
-		        s.id_sala = sr.id_sala
-		WHERE
-			sr.id_sala IS NULL
+
+
+
+
+
