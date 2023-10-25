@@ -77,7 +77,8 @@ create table reserva_responsavel(
 create table limpeza_manutencao(
     cpf_funcionario varchar(11), 
     id_sala integer,
-    data_hora timestamp, 
+    data_hora timestamp,
+    tipo varchar (11), 
     foreign key(cpf_funcionario) references fucionario_tercerizado(cpf),
     foreign key(id_sala) references sala(id_sala)
 );
