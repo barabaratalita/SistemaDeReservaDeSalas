@@ -1,9 +1,9 @@
 /*Quais salas estão atualmente sendo usadas por alunos*/
-use sistema_reserva_salas_db;
+USE sistema_reserva_salas_db;
 
-select id_sala,id_reserva, horio_inicio, horario_fim
-	from reserva r
-	INNER JOIN reserva_responsavel rs ON rs.id_reserva = s.id_reserva
-    where(r.horario_inicio >= date(now()) and r.horario_fim > date(now()));
-     
-    
+SELECT s.id_sala, s.numero, s.lotacao, s.tipo_sala, s.data_show, s.climatizacao, s.obs, s.sala_especial
+	FROM sala s
+	INNER JOIN reserva r ON s.id_sala = r.id_sala
+	INNER JOIN reserva_responsavel rr ON r.id_reserva = rr.id_reserva
+	INNER JOIN discente d ON rr.responsavel = d.email
+    WHERE(r.horario_inicio <= now() AND r.horario_fim >= now());
