@@ -5,5 +5,5 @@ SELECT s.id_sala, s.numero, s.lotacao, s.tipo_sala, s.data_show, s.climatizacao,
 	FROM sala s
 	INNER JOIN reserva r ON s.id_sala = r.id_sala
 	INNER JOIN reserva_responsavel rr ON r.id_reserva = rr.id_reserva
-	INNER JOIN discente d ON rr.responsavel = d.email
+	INNER JOIN discente d ON rr.responsavel = d.di_email
     WHERE(r.horario_inicio <= now() AND r.horario_fim >= now());
