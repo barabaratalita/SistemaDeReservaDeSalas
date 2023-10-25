@@ -78,7 +78,8 @@ create table limpeza_manutencao(
     cpf_funcionario varchar(11), 
     id_sala integer,
     data_hora_inicio timestamp,
-    data_hora_fim timestamp, 
+    data_hora_fim timestamp,
+    tipo varchar (11), 
     foreign key(cpf_funcionario) references fucionario_tercerizado(cpf),
     foreign key(id_sala) references sala(id_sala)
 );
