@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img-head.ico" type="image/x-icon">
+    <title>SIGN IN</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script> <!-- Biblioteca para o consumo da api -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #EBEBEB;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+       .form-container {
+           background: white;
+           margin: 150px auto;
+           width: 400px;
+       }
+
+       form {
+           padding: 20px;
+       }
+
+       form h3{
+           text-align: center;
+       }
+
+       form .input-container {
+            position: relative;
+            margin: 20px;
+       }
+
+       form .input-container input, input[type="submit"] {
+           width: 100%;
+           height: 45px;
+           border-radius: 25px;
+       }
+
+       form input[type="submit"] {
+           border: 0;
+           color: white;
+           background: red;
+           font-weight: bold;
+       }
+
+       form .input-container input {
+           border: 1px solid #E4E4E4;
+           color: #818181;
+           padding: 0 55px 0 25px;
+       }
+
+       form .input-container input::placeholder {
+           color: #818181;
+       }
+
+       svg{
+           position: absolute;
+           right: 20px;
+           top: calc(50% - 12px);
+           color: #818181;
+       }
+
+       .options-container{
+           padding: 0 20px;
+           margin: 20px auto;
+       }
+
+       .options-container .checkbox-container, a {
+            display: inline-block;
+            width: 50%;
+            color: #818181;
+       }
+
+        a {
+           margin-left: 10px;
+           color: red;
+           text-decoration: none;
+           margin-top: 10px;
+       }
+
+       .select {
+            border: 1px solid #E4E4E4;
+            border-radius: 25px;
+            color: #818181;
+            padding: 0 55px 0 25px;
+       }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form >
+            <h3>REGISTER</h3><div class="input-container">
+                <input type="text" name="username" id="username" placeholder="Name">
+                <i data-feather="user"></i>
+            </div>
+            <div class="input-container">
+                <input type="text" name="useremail" id="useremail" placeholder="E-mail">
+                <i data-feather="mail"></i>
+            </div>
+            <div class="input-container">
+                <input type="password" name="userpassword" id="userpassword" placeholder="Password" >
+                <i data-feather="lock"></i>
+            </div>
+            <div class="input-container">
+                <input type="text" name="userphone" id="userphone" placeholder="Phone" >
+                <i data-feather="phone"></i>
+            </div>
+            <div class="options-container">
+                <div class="checkbox-container" onchange="mostrarConteudo()">
+                    <select class="select">
+                        <option value="">Selecione uma opção</option>
+                        <option value="Discente">Discente</option>
+                        <option value="Docente">Docente</option>
+                        <option value="Funcionario">Funcionario Tecerizado</option>
+                        <option value="Tecnico">Tecnico_ADM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-container" id="conteudoOpcao1" style="display: none;">
+                <input type="text" name="usermatricula" id="usermatricula" placeholder="Matricula" >
+            </div>
+            <div class="input-container" id="conteudoOpcao2" style="display: none;">
+                <input type="text" name="usersinap" id="usersinap" placeholder="SINAP" >
+            </div>
+            <div class="input-container" id="conteudoOpcao3" style="display: none;">
+                <input type="text" name="usercpf" id="usercpf" placeholder="CPF" >
+            </div>
+            <input class="botton" type="submit" value="Register" onclick="register()">
+            <a href="http://localhost:3030/">Login</a>
+        </form>
+    </div>
+    <script>
+        
+        function mostrarConteudo() {
+            const select = document.querySelector(".select").value;
+            console.log(select);
+
+            const conteudoOpcao1 = document.getElementById("conteudoOpcao1");
+            const conteudoOpcao2 = document.getElementById("conteudoOpcao2");
+            const conteudoOpcao3 = document.getElementById("conteudoOpcao3");
+
+            if (select === "Discente") {
+                conteudoOpcao1.style.display = "block";
+                const matricula = document.getElementById('usermatricula').value;
+                return matricula;
+            } else {
+                conteudoOpcao1.style.display = "none";
+
+            }
+            if (select === "Docente") {
+                conteudoOpcao2.style.display = "block";
+                const sinap = document.getElementById('usersinap').value;
+                return sinap;
+            } else {
+                conteudoOpcao2.style.display = "none";
+            }
+            if (select === "Funcionario" || select === "Tecnico") {
+                conteudoOpcao3.style.display = "block";
+                const cpf = document.getElementById('usercpf').value;
+                return cpf;
+            } else {
+                conteudoOpcao3.style.display = "none";
+            }
+        }
+
+        function register(){
+            event.preventDefault();
+            const nome = document.getElementById('username').value;
+            const email = document.getElementById('useremail').value;
+            const password = document.getElementById('userpassword').value;
+            const telephone = document.getElementById('userphone').value;
+            const person = document.querySelector(".select").value;
+            const select = mostrarConteudo();
+
+            console.log(nome, email, password, telephone, person ,select);
+
+            if(!name || !email || !password || !telephone || !select){
+                alert("Informaçõs incompletas!");
+            }else{
+                const register = {
+                    Nome: nome,
+                    Email: email,
+                    Senha: password,
+                    telefone: telephone,
+                    person: person,
+                    select: select
+                };
+
+                axios.post("http://localhost:3030/register",register).then(res => {
+                    if(res.status == 200){
+                        alert("Usuario cadastrado!");
+                        window.location.href = "https://localhost:3030/login-user";
+                    }else{
+                        alert("Erro ao cadastrar!")
+                    }
+                }).catch(err => {
+                    console.log("Erro cadastro");
+                })
+            }
+
+            
+        }
+    </script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
