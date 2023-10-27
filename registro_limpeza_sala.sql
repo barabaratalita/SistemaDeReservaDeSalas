@@ -2,6 +2,6 @@
 
 use sistema_reserva_salas_db;
 
-SELECT id_sala, data_hora AS data_limpeza 
+SELECT id_sala, data_hora_inicio, data_hora_fim 
         FROM limpeza_manutencao
-        WHERE id_sala = '1'
+        WHERE id_sala = '2'
