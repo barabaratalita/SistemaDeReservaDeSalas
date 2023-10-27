@@ -233,9 +233,9 @@ insert into sala(id_sala, numero, lotacao, tipo_sala, data_show, climatizacao, o
         /*
  insere reservas das salas */
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (1, 1, null, null, '2023-10-26 21:58:19', '2023-10-27 00:58:19', null, true);
+    values (1, 1, null, null, now(), now(), null, false);
 
-insert into reserva_responsavel(id_reserva, responsavel) values (1, 'email11@email.com');
+insert into reserva_responsavel(id_reserva, responsavel) values (1, 'email1@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
     values (2, 1, null, null, '2023-10-26 22:58:19', '2023-10-27 01:58:19', null, true);
@@ -243,27 +243,27 @@ insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, ho
 insert into reserva_responsavel(id_reserva, responsavel) values (2, 'email12@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (3, 1, null, null, '2023-10-26 23:58:19', '2023-10-27 02:58:19', null, true);
+    values (3, 1, null, null, '2023-10-21 23:58:19', '2023-10-23 02:58:19', null, true);
 
-insert into reserva_responsavel(id_reserva, responsavel) values (3, 'email13@email.com');
+insert into reserva_responsavel(id_reserva, responsavel) values (3, 'email3@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (4, 1, null, null, '2023-10-27 00:58:19', '2023-10-27 03:58:19', null, true);
+    values (4, 1, null, null, '2023-10-27 00:58:19', '2023-10-27 03:58:19', null, false);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (4, 'email14@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
     values (5, 1, null, null, '2023-10-27 01:58:19', '2023-10-27 04:58:19', null, true);
 
-insert into reserva_responsavel(id_reserva, responsavel) values (5, 'email15@email.com');
+insert into reserva_responsavel(id_reserva, responsavel) values (5, 'email5@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (6, 2, null, null, '2023-10-26 21:58:19', '2023-10-27 00:58:19', null, true);
+    values (6, 2, null, null, '2023-10-21 23:58:19', '2023-10-23 02:58:19', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (6, 'email16@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (7, 2, null, null, '2023-10-26 22:58:19', '2023-10-27 01:58:19', null, true);
+    values (7, 2, null, null, '2023-10-21 23:58:19', '2023-10-23 02:58:19', null, false);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (7, 'email17@email.com');
 
@@ -278,14 +278,14 @@ insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, ho
 insert into reserva_responsavel(id_reserva, responsavel) values (9, 'email19@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (10, 2, null, null, '2023-10-27 01:58:19', '2023-10-27 04:58:19', null, true);
+    values (10, 2, null, null, '2023-10-26 01:58:19', '2023-10-26 04:58:19', null, true);
 
 insert into reserva_responsavel(id_reserva, responsavel) values (10, 'email20@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (11, 3, null, null, '2023-10-26 21:58:19', '2023-10-27 00:58:19', null, true);
+    values (11, 3, null, null, now(), now(), null, true);
 
-insert into reserva_responsavel(id_reserva, responsavel) values (11, 'email11@email.com');
+insert into reserva_responsavel(id_reserva, responsavel) values (11, 'email4@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
     values (12, 3, null, null, '2023-10-26 22:58:19', '2023-10-27 01:58:19', null, true);
@@ -298,9 +298,9 @@ insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, ho
 insert into reserva_responsavel(id_reserva, responsavel) values (13, 'email12@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
-    values (14, 3, null, null, '2023-10-27 00:58:19', '2023-10-27 03:58:19', null, true);
+    values (14, 3, null, null, now(), now(), null, true);
 
-insert into reserva_responsavel(id_reserva, responsavel) values (14, 'email14@email.com');
+insert into reserva_responsavel(id_reserva, responsavel) values (14, 'email8@email.com');
 
 insert into reserva(id_reserva, id_sala, motivo_reserva, recursos_adicionais, horario_inicio, horario_fim,  token_reserva, confirmado)
     values (15, 3, null, null, '2023-10-27 01:58:19', '2023-10-27 04:58:19', null, true);
