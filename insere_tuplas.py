@@ -111,9 +111,11 @@ insert into reserva_responsavel(id_reserva, responsavel) values ({qtd_reserva+1}
         #criar limpezas para essa sala
         for k in range(30):
 
-            horario = str(data_atual + timedelta(days=k) + timedelta(hours=i))[0:19]
+            horario_inicio = str(data_atual + timedelta(hours=k))[0:19]
+            horario_fim = str(data_atual + timedelta(hours=3+k))[0:19]
+            
             sql_limpezas_salas += f"""
-insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora) values ('{get_fucionario(k)}', {i+1}, '{horario}');
+insert into limpeza_manutencao(cpf_funcionario, id_sala, data_hora_inicio, data_hora_fim, tipo) values ('{get_fucionario(k)}', {i+1}, '{horario_inicio}', '{horario_fim}','limpeza');
             """
 
         sql_reservas_salas += sql_reserva
